@@ -1,0 +1,127 @@
+<?php
+session_start();
+
+include('include/config.php');
+include('include/checklogin.php');
+check_login();
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Doctor | Details</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendor/themify-icons/themify-icons.min.css">
+	<link href="vendor/animate.css/animate.min.css" rel="stylesheet" media="screen">
+	<link href="vendor/perfect-scrollbar/perfect-scrollbar.min.css" rel="stylesheet" media="screen">
+	<link href="vendor/switchery/switchery.min.css" rel="stylesheet" media="screen">
+	<link href="vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" rel="stylesheet" media="screen">
+	<link href="vendor/select2/select2.min.css" rel="stylesheet" media="screen">
+	<link href="vendor/bootstrap-datepicker/bootstrap-datepicker3.standalone.min.css" rel="stylesheet" media="screen">
+	<link href="vendor/bootstrap-timepicker/bootstrap-timepicker.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/plugins.css">
+	<link rel="stylesheet" href="assets/css/themes/theme-1.css" id="skin_color" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+	<div id="app">
+		<?php include('include/sidebar.php'); ?>
+		<div class="app-content">
+
+			<?php include('include/header.php'); ?>
+
+
+			<div class="main-content">
+				<div class="wrap-content container" id="container">
+
+					<section id="page-title">
+						<div class="row">
+							<div class="col-sm-8">
+								<h1 class="mainTitle">Doctor | Details</h1>
+							</div>
+							<ol class="breadcrumb">
+								<li>
+
+							</ol>
+						</div>
+					</section>
+
+
+					<div class="row">
+
+						<?php $ret = mysqli_query($con, "SELECT * FROM `doctors`");
+						while ($row = mysqli_fetch_array($ret)) {
+echo "<div class='col-sm'>
+<div class='card' style='width: 18rem;'>
+	<img src='https://media.istockphoto.com/vectors/doctor-with-stethoscope-and-medical-test-medic-icon-in-flat-style-vector-id1129223269?k=20&m=1129223269&s=612x612&w=0&h=rfQO9jF2s8OZCtxV4CcRhF4hMPxg6_h2Au7D7bcBTwk=' class='card-img-top' alt='...'>
+	<div class='card-body'>
+		<h5 class='card-title'>".$row['doctorName']."</h5>
+		<h6 class='card-title'>".$row['specilization']."</h6>
+
+		<p class='card-text'>".$row['contactno']." <br>".$row['docEmail']." </p>
+		<div class='alert alert-primary' role='alert'>".$row['address']."</div>
+	</div>
+</div>
+</div>";
+						}
+						?>
+					</div>
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+		<?php include('include/footer.php'); ?>
+
+		<?php include('include/setting.php'); ?>
+		<>
+
+	</div>
+
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/modernizr/modernizr.js"></script>
+	<script src="vendor/jquery-cookie/jquery.cookie.js"></script>
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script src="vendor/switchery/switchery.min.js"></script>
+
+	<script src="vendor/maskedinput/jquery.maskedinput.min.js"></script>
+	<script src="vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+	<script src="vendor/autosize/autosize.min.js"></script>
+	<script src="vendor/selectFx/classie.js"></script>
+	<script src="vendor/selectFx/selectFx.js"></script>
+	<script src="vendor/select2/select2.min.js"></script>
+	<script src="vendor/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+	<script src="vendor/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
+
+	<script src="assets/js/main.js"></script>
+
+	<script src="assets/js/form-elements.js"></script>
+	<script>
+		jQuery(document).ready(function() {
+			Main.init();
+			FormElements.init();
+		});
+	</script>
+
+</body>
+
+</html>

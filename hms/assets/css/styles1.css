@@ -1,0 +1,35 @@
+
+.wrap{
+	width:70%;
+	margin:0 auto;
+}
+.header{
+	background:url(../images/header-bg.png);
+}
+.logo{
+	float:left;
+	margin-top: 14px;
+}
+.top-nav{
+	float:right;
+}
+.top-nav ul li{
+	display:inline-block;
+	float: left;
+	border-left: 1px solid rgb(31, 132, 224);
+}
+.top-nav ul li:first-child{
+	border-left:none;
+}
+.top-nav ul li a{
+	font-family: 'Ropa Sans', sans-serif;
+	background:#3391E7;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 15px;
+	display: block;
+}
+.top-nav ul li a:hover{
+	background:lightblue;
+	color: black;
+}

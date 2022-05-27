@@ -1,0 +1,58 @@
+window.externalConfig = {
+    "environment": "production",
+    "clientCSSPath": "../themes/css/theme.css",
+    "signInOptionAllowed":{
+        "SignInOption":[],
+        "SignInFlow": {
+            "withPassword": "PASSWORD"
+        },
+        "defaultSignIn":"MOBILE"
+    },
+    "forgotPasswordOptionAllowed": {
+        "forgotPasswordOption": [
+        ],
+        "defaultForgotPassword": "MOBILE"
+    },
+    "autoFormatEnableForPhone":false,
+    "consultantGenderConfigList": [
+        {
+            "name": "M",
+            "value": "M"
+        },
+        {
+            "name": "F",
+            "value": "F"
+        },
+        {
+            "name": "O",
+            "value": "O"
+        }
+    ],
+    "patientSignUp": {
+        "signUpGenderOptions":["Male", "Female", "Others"],
+        "signUpGenderOptionsMap":{
+            "Male":"M",
+            "Female":"F",
+            "Other":"O"
+        }
+    },
+    "forgotUserName": {
+        "genderOptions": [
+            "Male",
+            "Female",
+            "Other"
+        ]
+    },
+    "patientGenderTypes": ["M", "F", "O"],
+    "maritalStatusCodes": ["1","2","3","4","5"],
+    "emergencyContactRelationshipTypes": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31"],
+    "defaultCountryForPhone":"in",
+    "showTimeInEUFormat": false,
+     "clientLogo": "../themes/images/aster_Logo.png",
+     "clientFavIcon": "../themes/images/fav_icon.png",
+    "identifierAttributes":{"typeCode":"", "assigningAuthority": "", "isSequenceEnabled": true},
+    "patientIdentifier":{"useCode":"usual","text":"MR","system" : "MPHRX"},
+    "promotionalBannerCarousalConfig" : {
+        "autoplayTimeout": 3000
+     }
+}

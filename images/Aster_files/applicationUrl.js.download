@@ -1,0 +1,14 @@
+/**
+ *  * Created by Arif MphRx on 09/28/2018.
+ *   */
+
+window.applicationUrlConfig = {
+"baseURL": "https://www.one-aster.com/minerva",
+    "frontEndURL": "https://www.one-aster.com/webconnect/#",
+    "signUpURL": "https://www.one-aster.com/webconnect/components/signUp/#/signUp",
+    "twoFactorAuth": "https://www.one-aster.com/webconnect/#/twoFactorAuth",
+    "cpsUrl": "https://localhost:8000/minerva/cpsLogin/index",
+    "captchaKey": "6Lc49u4UAAAAAEZM8NWw41EQRyGMf_J2xs1f9lEU",
+    "oauthPublicKey": "JdDngLuvCyCnWdXU9HVnVAY2TIw"
+}
+

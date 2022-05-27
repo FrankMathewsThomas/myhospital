@@ -1,0 +1,541 @@
+.h1--login {
+    color: #164d92 !important;
+    border-bottom: 1px solid #164d92 !important;
+}
+
+.btn-primary, .checkbox--btnView label input:checked + span {
+    background-color: #00B48D !important;
+    border-color: #00B48D !important;
+}
+
+.signUp--content .btn-default--white {
+    opacity: 1 !important;
+}
+
+.btn-primary:hover, .checkbox--btnView label input:checked + span:hover, .btn-primary:focus, .checkbox--btnView label input:checked + span:focus, .btn-primary:active, .checkbox--btnView label input:checked + span:active, .btn-primary.active, .checkbox--btnView label input:checked + span.active, .open > .dropdown-toggle.btn-primary, .checkbox--btnView label .open > input:checked + span.dropdown-toggle {
+    background-color: #008266 !important;
+    border-color: #008266 !important;
+}
+
+.btn-primary.disabled, .checkbox--btnView label input:checked + span.disabled, .btn-primary[disabled], .checkbox--btnView label input:checked + span[disabled], fieldset[disabled] .btn-primary, fieldset[disabled] .checkbox--btnView label input:checked + span, .checkbox--btnView label fieldset[disabled] input:checked + span, .btn-primary.disabled:hover, .checkbox--btnView label input:checked + span.disabled:hover, .btn-primary[disabled]:hover, .checkbox--btnView label input:checked + span[disabled]:hover, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .checkbox--btnView label input:checked + span:hover, .checkbox--btnView label fieldset[disabled] input:checked + span:hover, .btn-primary.disabled:focus, .checkbox--btnView label input:checked + span.disabled:focus, .btn-primary[disabled]:focus, .checkbox--btnView label input:checked + span[disabled]:focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .checkbox--btnView label input:checked + span:focus, .checkbox--btnView label fieldset[disabled] input:checked + span:focus, .btn-primary.disabled:active, .checkbox--btnView label input:checked + span.disabled:active, .btn-primary[disabled]:active, .checkbox--btnView label input:checked + span[disabled]:active, fieldset[disabled] .btn-primary:active, fieldset[disabled] .checkbox--btnView label input:checked + span:active, .checkbox--btnView label fieldset[disabled] input:checked + span:active, .btn-primary.disabled.active, .checkbox--btnView label input:checked + span.disabled.active, .btn-primary[disabled].active, .checkbox--btnView label input:checked + span[disabled].active, fieldset[disabled] .btn-primary.active, fieldset[disabled] .checkbox--btnView label input:checked + span.active, .checkbox--btnView label fieldset[disabled] input:checked + span.active {
+    background-color: #008266 !important;
+    border-color: #008266 !important;
+}
+.signUpC h2 {
+    color: #164d92 !important;
+}
+.nav-tabs.boxed > li.active > a, .nav-tabs.boxed > li.active > a:hover, .nav-tabs.boxed > li.active > a:focus, .nav-tabs.boxed > li > a:hover, .nav-tabs.boxed > li > a:focus{
+    color: #ffffff;
+    background-color: #164d91 !important;
+    border-color: #164d91 !important;
+}
+
+.linkFamilyTabs .navTabsOuter {
+    border-bottom:2px solid #164d92 !important;
+}
+.onlyHtml .json_widget_outer {
+    background: #ffffff !important;
+    /*
+    border: 1px solid #CCCCCC;
+    */
+}
+
+.widget .widget-header + .json_widget_outer {
+    height: calc(100% - 50px) !important;
+}
+
+.dashBlk {
+    background: #ffffff !important;
+    margin-top: 0px !important;
+    height:100%;
+}
+
+.dashBlk a {
+    color: #0078bf !important;
+    padding-top: 20px;
+}
+
+.dashBlk a p {
+    margin-top: 5px;
+    color: #666666 !important;
+    font-size:14px;
+}
+
+
+.signUp--content {
+    min-height : auto !important;
+}
+.flag-dropdown .arrow {
+    display: none;
+}
+.flag-dropdown {
+    cursor: default;
+    pointer-events: none;
+}
+
+/* Themeing changes starts */
+/* Theming color */
+
+
+
+/* primary btn blue button css */
+.btn-primary, .userSentItem .sideNaveBar li .active, .btn-primary[disabled]{
+    color: #FFFFFF !important;
+    background-color: #00b48d !important;
+    border-color: #00b48d !important;
+}
+/* primary btn blue button css */
+
+/* on Hover primary btn blue button, checkbox, radio button css */
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-primary:hover, .checkbox--btnView label input:checked + span:hover, .btn-primary:focus, .checkbox--btnView label input:checked + span:focus, .btn-primary:active, .checkbox--btnView label input:checked + span:active, .btn-primary.active, .checkbox--btnView label input:checked + span.active, .open > .dropdown-toggle.btn-primary, .checkbox--btnView label .open > input:checked + span.dropdown-toggle{
+    color: #ffffff !important;
+    background-color: #039e7d !important;
+    border-color: #039e7d !important;
+}
+
+.btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .checkbox--btnView label .open>input:checked+span.dropdown-toggle, .checkbox--btnView label input:checked+span.active, .checkbox--btnView label input:checked+span:active, .checkbox--btnView label input:checked+span:focus, .checkbox--btnView label input:checked+span:hover, .open>.dropdown-toggle.btn-primary {
+    background-color: #039e7d !important;
+    border-color: #039e7d !important;
+    color: #FFFFFF !important;
+}
+
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, .checkbox--btnView label fieldset[disabled] input:checked+span, .checkbox--btnView label fieldset[disabled] input:checked+span.active, .checkbox--btnView label fieldset[disabled] input:checked+span:active, .checkbox--btnView label fieldset[disabled] input:checked+span:focus, .checkbox--btnView label fieldset[disabled] input:checked+span:hover, .checkbox--btnView label input:checked+span.disabled, .checkbox--btnView label input:checked+span.disabled.active, .checkbox--btnView label input:checked+span.disabled:active, .checkbox--btnView label input:checked+span.disabled:focus, .checkbox--btnView label input:checked+span.disabled:hover, .checkbox--btnView label input:checked+span[disabled], .checkbox--btnView label input:checked+span[disabled].active, .checkbox--btnView label input:checked+span[disabled]:active, .checkbox--btnView label input:checked+span[disabled]:focus, .checkbox--btnView label input:checked+span[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .checkbox--btnView label input:checked+span, fieldset[disabled] .checkbox--btnView label input:checked+span.active, fieldset[disabled] .checkbox--btnView label input:checked+span:active, fieldset[disabled] .checkbox--btnView label input:checked+span:focus, fieldset[disabled] .checkbox--btnView label input:checked+span:hover
+{
+    background-color: #00b48d !important;
+    border-color: #00b48d !important;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+    background-color: #00b48d !important;
+    border-color: #00b48d !important;
+    color: #FFFFFF !important;
+}
+
+/* on Hover primary btn blue button, checkbox, radio button css */
+
+/* Tabs color CSS */
+.nav-tabs.boxed > li.active > a, .nav-tabs.boxed > li.active > a:hover, .nav-tabs.boxed > li.active > a:focus, .nav-tabs.boxed > li > a:hover, .nav-tabs.boxed > li > a:focus {
+    color: #FFFFFF;
+    background-color: #164D92 !important;
+    border-color: #164D92 !important;
+}
+
+.tabsBorder {
+    border-bottom: 2px solid #164D92 !important;
+}
+
+.nav-lines .open>a, .nav-lines .open>a:focus, .nav-lines .open>a:hover, .nav-lines>li.active>a, .nav-lines>li.active>a:focus, .nav-lines>li.active>a:hover{
+    color: #164D92 !important;
+    border-bottom-color:  #164D92 !important;
+}
+
+.queryTabs .tab.active {
+    background: #164D92 !important;
+}
+
+.queryTabs .tab:hover {
+    background: #164D92 !important;
+}
+/* Tabs color CSS */
+
+
+/* login page header right button for book appointment css */
+
+/* login page header right button for book appointment css */
+
+
+/* header navigation menu css on */
+.myHeader .navbar-default .navbar-nav li.active a, .myHeader .navbar-default .navbar-nav li.active a:hover, .nav--xsOnly .nav--xsOnly--list .nav li.active a{
+    color: #FFFFFF;
+    background-color: #164D92 !important;
+}
+
+
+/* header navigation menu css on hover */
+.navbar-default .navbar-nav li:hover>a{
+    color: #FFFFFF !important;
+    background-color: #164D92 !important;
+}
+
+/* select box Ui-select component css */
+.select2-results .select2-highlighted, .selectize-dropdown .active, .ui-select-bootstrap .ui-select-choices-row.active>a{
+    color: #FFFFFF;
+    background-color: #164D92 !important;
+}
+
+.loginBg .bg2 {
+    background: linear-gradient(to bottom, rgba(0, 180, 141, 0.95) 0%, rgba(22, 77, 146, 0.95) 100%) !important;
+    background: -moz-linear-gradient(to bottom, rgba(0, 180, 141, 0.95) 0%, rgba(22, 77, 146, 0.95) 100%); !important;
+    background: -webkit-linear-gradient(to bottom, rgba(0, 180, 141, 0.95) 0%, rgba(22, 77, 146, 0.95) 100%); !important;
+    background: linear-gradient(to bottom, rgba(0, 180, 141, 0.95) 0%, rgba(22, 77, 146, 0.95) 100%); !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#164d92', endColorstr='#00b48d', GradientType=1) !important;
+}
+
+
+.lBg_R, .loginBg .bg1 {
+    background: none !important;
+}
+
+@media screen and (max-width: 767px){
+    .lBg_R .bg2, .lBg_R .bg3, .xs_loginBg1 {
+        background: none !important;
+    }
+}
+
+
+/* link and button link css */
+a, .btn-link, .btn-link.active, .btn-link:active, .btn-link:focus, .btn-link:visited{
+    /*color: rgb(87,36,109);*/
+}
+
+
+/* login page heading css */
+.h1--login{
+    color: #164D92 !important;
+    border-bottom: 1px solid #164D92 !important;
+}
+
+/* notification link css */
+.notification_link b{
+    background-color: #164D92 !important;
+}
+
+
+
+/* no patient image avaible css with initials */
+.noImgBg.nameAvl, .thm.nameAvl {
+    background: #164D92 !important;
+}
+
+/* no patient image avaible css with initials with thumbnails for details page */
+.thm .noImgBg.nameAvl, .thm.nameAvl {
+    background: #164D92 !important;
+}
+
+/* left filter all patient button */
+.leftWrapStyle .allPatientBtn a {
+    color: #00b48d !important;
+}
+
+/* patient banner pic background css */
+.patBanner .uPic .noImgBg.nameAvl {
+    background: #164D92 !important;
+}
+
+/* patient banner title css */
+.patBanner .ui_title {
+    color: #164D92 !important;
+}
+
+/* overview page cards action link css */
+.patOverviewCont .povTitle .action .btn-link {
+    color: #00b48d !important;
+}
+
+/* patient banner menu css */
+.patBanner .patientSubNav .subNav ul li.active a, .patBanner .patientSubNav .subNav ul li.active a:active, .patBanner .patientSubNav .subNav ul li.active a:hover, .patBanner .patientSubNav .subNav ul li.active a:hover:focus, .patBanner .patientSubNav .subNav ul li.active a:hover:visited {
+    background: #164D92 !important;
+    color: #fff;
+}
+
+/* signup card title css */
+
+
+/* disable mobile number input dropdown flag div only css */
+.flag-dropdown {
+    cursor: default;
+    pointer-events: none;
+}
+
+/* report bottle icon css*/
+.orderTitle .fIconCont.lab, .orderTitleDtl .fIconCont.lab {
+    background-color: #164D92 !important;
+}
+
+/* Download button css*/
+.btn-info {
+    color: #FFFFFF;
+    background-color: #008f96 !important;
+    border-color: #008f96 !important;
+}
+
+/* Radio btn css*/
+.fancyRadio input:checked + span {
+    border-color: #164D92 !important;
+}
+
+.fancyRadio input + span b {
+    background-color: #164D92;
+}
+/* Radio btn css*/
+
+.select2-results .select2-highlighted, .selectize-dropdown .active, .ui-select-bootstrap .ui-select-choices-row.active>a {
+    background-color: #164D92 !important;
+}
+
+.dropdown-menu.btnPrimary .btn-primary:hover {
+    background-color: #039e7d !important;
+}
+
+
+
+/* Check Box */
+.fancyCheckbox input:checked + span {
+    background: #164D92 !important;
+    border: 1px solid #164D92 !important;
+}
+
+.switch input:checked + .sBg {
+    background: #164D92 !important;
+    border-color: #164D92 !important;
+    color: #ffffff;
+}
+/* Check Box */
+
+.uploaderTitle1 {
+    background: #008f96 !important;
+}
+
+.aboutUsModal .modal-header {
+    background: #164D92 !important;
+    min-height: 50px;
+}
+
+
+.actionBtnCa .bookAppBtn{
+    height:46px !important;
+    line-height:14px;
+    font-size: .86em;
+    padding:5px;
+    max-width:120px;
+    white-space:pre-wrap;
+    display:inline-block;
+}
+
+.actionBtnCa .dropdown-toggle{
+    height:46px !important;
+    line-height:36px;
+    font-size:18px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.actionBtnCa .dropdown-menu{
+    left:auto;
+    right:0;
+}
+
+@media screen and (max-width: 991px) {
+
+    .actionBtnCa .bookAppBtn br{
+        display:none;
+    }
+    .actionBtnCa .bookAppBtn{
+        max-width:250px;
+    }
+    .actionBtnCa .bookAppBtn, .actionBtnCa .dropdown-toggle {
+        border:0; padding:0; margin:0; background: none !important; box-shadow:none !important; height:auto !important;
+        font-size:12px;
+        font-weight:normal;
+        font-family:'Open Sans',Arial, Helvetica, sans-serif;
+        line-height:18px;
+        color: #0078bf;
+        vertical-align: middle;
+        vertical-align:middle;
+    }
+    .actionBtnCa .dropdown-toggle .fIcon{
+        margin-top: 2px;
+        vertical-align:middle;
+    }
+
+    .actionBtnCa .dropdown-menu{
+        right:auto;
+        left:0;
+    }
+
+    .line_1ca, .line_2ca {
+        color:#999;
+    }
+    .line_2ca {
+        margin-left:6px;
+        margin-right:6px;
+    }
+
+    .actionBtnCa .bookAppBtn::after, .moreLinkBtnCa a::after{
+        content:"|";
+        color:#999;
+        margin-left:6px;
+        margin-right:0px;
+    }
+
+    .moreLinkBtnCa a::after{
+        margin-right: 3px;
+        margin-left: 2px;
+        vertical-align: top;
+    }
+
+    .onlyHtml .json_widget_outer {
+        background: #FFF !important;
+    }
+
+    .widget iframe {
+        height:auto;
+    }
+
+    .widget .json_widget_outer {
+        height: 100%;
+        overflow: hidden;
+        padding: 0px;
+    }
+
+}
+
+
+.btnViewRadio label input.noShow + span {
+    background: none !important;
+    color: #333333 !important;
+    border: 1px solid #164D92 !important;
+}
+
+.btnViewRadio label input.noShow + span:hover, .btnViewRadio label input.noShow:checked + span {
+    background: #164D92 !important;
+    color: #FFF !important;
+}
+
+.btnViewRadio label input.noShow.disabled + span {
+    background: #ebeced !important;
+    color: #666666 !important;
+    cursor: not-allowed;
+    border: none !important;
+}
+
+.btnViewRadio label input.noShow.disabled + span:hover {
+    background: #ebeced !important;
+    color: #666666 !important;
+    cursor: not-allowed;
+    border: none !important;
+}
+
+.appN--slotModal .customAccordion .accordionList .accordionLink {
+    background: none !important;
+    color: #164D92 !important;
+    padding: 8px 35px 8px 0px !important;
+}
+
+
+.appN--slotModal .customAccordion .accordionList {
+    border:none !important;
+    border-bottom: 1px solid #e6e6e6 !important;
+}
+
+.slotInfoBox .dSl {
+    background: #164D92 !important;
+}
+
+.slotInfoBox .dSl {
+    background: #164D92 !important;
+}
+
+
+.btn-default, .checkbox--btnView label input:checked + span{
+    color: #00b48d !important;
+    background-color: #FFF !important;
+    border-color: #00b48d !important;
+}
+
+.btn-default:hover, .checkbox--btnView label input:checked + span:hover, .btn-default:focus, .checkbox--btnView label input:checked + span:focus, .btn-default:active, .checkbox--btnView label input:checked + span:active, .btn-default.active, .checkbox--btnView label input:checked + span.active, .open > .dropdown-toggle.btn-default, .checkbox--btnView label .open > input:checked + span.dropdown-toggle {
+    background-color: #f9f9f9 !important;
+    border-color: #00b48d !important;
+}
+
+.t2Icon {
+    color: #164D92 !important;
+}
+
+.appS_cG {
+    background: #164D92 !important;
+}
+
+.input-group-btn .btn-default.btnWithIcon, .np_links .btn-default {
+    background-color: #f9f9f9 !important;
+    border-color: #b3b3b3 !important;
+    color:#164D92 !important;
+}
+
+.slotInfoBox .dSt {
+    background: #f4faff !important;
+}
+.slotPhyBox .phyName {
+    color: #333 !important;
+}
+.input-group .btn-default {
+    background-color: #f9f9f9 !important;
+    border-color: #b3b3b3 !important;
+    color:#333 !important;
+}
+.dropdown-menu.ng-valid-date-disabled .btn-info.active {
+    color: #ffffff !important;
+    background-color: #00588c !important;
+    border-color: #00588c !important;
+}
+
+.ui-select-match .form-control, .ui-select-match .form-control.btn-default {
+    color: #333333 !important;;
+    background-color: #f7f7f7 !important;;
+    border-color: #b3b3b3 !important;;
+}
+
+.signUp--content {
+    min-height: auto;
+}
+
+
+.signUp--content .btn-default--white {
+    background: #164D92 !important;
+    color: #FFFFFF !important;
+}
+.signUp--content .btn-default--white:hover {
+    background: #014191 !important;
+    color: #FFFFFF !important;
+}
+
+
+/* Themeing changes ends */
+
+/*Aster Theam color Chang */
+.label-primary-light{
+    background-color: #d4eac8 !important;
+    color: #5a9339 !important;
+}
+.appN_phy--inst{
+    color: #777777 !important;
+}
+/*Aster Theam color Chang End*/
+
+
+
+/*Theme Updates*/
+
+.slotLegends .available .colorBox {
+    background: #0078BF !important;
+}
+.slotLegends .legend .colorBox {
+    background: #999 !important;
+}
+.slotLegends .notAvailable .colorBox {
+    background: #ebeced !important;
+}
+
+
+.dropdown-menu.btnPrimary .btn-primary, .dropdown-menu.btnPrimary .btn-primary:active, .dropdown-menu.btnPrimary .btn-primary:visited, .dropdown-menu.btnPrimary .btn-primary:focus {
+    background: #ffffff !important;
+    color: #333333 !important;
+}
+.dropdown-menu.btnPrimary .btn-primary:hover {
+    background-color: #039e7d !important;
+    color: #FFF !important;
+}
+
+appointmentBox {
+    background-color: #164D92 !important;
+}
