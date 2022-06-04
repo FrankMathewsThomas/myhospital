@@ -1,10 +1,6 @@
 <?php
 session_start();
 
-if(!isset($_SESSION['userId']))
-{
-  header('location:login.php');
-}
  ?>
 <?php require "assets/function.php" ?>
 <?php require 'assets/db.php';?>
@@ -46,12 +42,9 @@ if(!isset($_SESSION['userId']))
   <div style="background:#FFF;color: grey;border-bottom:1px solid #c8c7cc;;padding: 13px 17px;border-left: 3px solid #3C8DBC;"><span><i class="fa fa-dashboard fa-fw"></i> Dashboard</span></div>
     <div class="item">
       <ul class="nostyle zero">
-        <a href="index.php"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Home</li></a>
-        <a href="inventeries.php"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Inventeries</li></a>
-       <a href="addnew.php"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Add New Item</li></a>
-        
-        <a href="reports.php"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Report</li></a>
-      </ul><
+      <a href="index.php"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Product Categories</li></a>
+        <a href="./../../index.html"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Back to Home</li></a>
+      </ul>
     </div>
   </div>
   <div style="background:white;color: white;padding: 13px 17px;border-left: 3px solid #3C8DBC;"><span><i class="fa fa-globe fa-fw"></i> </span></div>
@@ -59,24 +52,10 @@ if(!isset($_SESSION['userId']))
 </div>
 <div class="marginLeft" >
   <div style="color:white;background:white" >
-    <div class="pull-right flex rightAccount" style="padding-right: 11px;padding: 7px;">
-      <div><img src="photo/<?php echo $user['pic'] ?>" style='width: 41px;height: 33px;' class='img-circle'></div>
-      <div style="padding: 8px"><?php echo ucfirst($user['name']) ?></div>
-    </div>
+    
     <div class="clear"></div>
   </div>
-<div class="account" style="display: none;">
-  <div style="background: #3C8DBC;padding: 22px;" class="center">
-    <img src="photo/<?php echo $user['pic'] ?>" style='width: 100px;height: 100px; margin:auto;' class='img-circle img-thumbnail'>
-    <br><br>
-    <span style="font-size: 13pt;color:#CEE6F0"><?php echo $user['name'] ?></span><br>
-    <span style="color: #CEE6F0;font-size: 10pt">Member Since:<?php echo $user['date']; ?></span>
-  </div>
-  <div style="padding: 11px;">
-    <a href="profile.php"><button class="btn btn-default" style="border-radius:0">Profile</button>
-    <a href="logout.php"><button class="btn btn-default pull-right" style="border-radius: 0">Sign Out</button></a>
-  </div>
-</div>
+
 
   <div class="content2">
   	<ol class="breadcrumb ">
@@ -156,10 +135,6 @@ if(!isset($_SESSION['userId']))
           <div class="form-group">
             <label for="some" class="col-form-label">Contact</label>
             <input type="text" name="contact" class="form-control" id="some" required>
-          </div>
-           <div class="form-group">
-            <label for="some" class="col-form-label">Discount</label>
-            <input type="text" name="discount" value="0" min="1" class="form-control" id="some" required>
           </div>
        
         </div>

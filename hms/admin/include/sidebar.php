@@ -46,6 +46,7 @@
 										</a>
 									</li>
 									
+									
 								</ul>
 								</li>
 
@@ -59,6 +60,54 @@
 										</div>
 										<div class="item-inner">
 											<span class="title"> Appointment History </span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="addnew.php">
+									<div class="item-content">
+										<div class="item-media">
+											<i class="ti-file"></i>
+										</div>
+										<div class="item-inner">
+											<span class="title"> Add New Item </span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="inventeries.php">
+									<div class="item-content">
+										<div class="item-media">
+											<i class="ti-file"></i>
+										</div>
+										<div class="item-inner">
+											<span class="title"> Inventeries </span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="manageCat.php">
+									<div class="item-content">
+										<div class="item-media">
+											<i class="ti-file"></i>
+										</div>
+										<div class="item-inner">
+											<span class="title"> Manage Categories </span>
+										</div>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="reports.php">
+									<div class="item-content">
+										<div class="item-media">
+											<i class="ti-file"></i>
+										</div>
+										<div class="item-inner">
+											<span class="title"> Sold Reports </span>
 										</div>
 									</div>
 								</a>

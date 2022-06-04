@@ -16,6 +16,11 @@ if(!isset($_SESSION['userId']))
   <style type="text/css">
   <?php include 'css/customStyle.css'; ?>
 
+  @media print {
+  #printPageButton {
+    display: none;
+  }
+}
   </style>
   <?php 
   $notice="";
@@ -69,14 +74,12 @@ if(!isset($_SESSION['userId']))
   <tr>
     <td colspan="3" style="text-align: right;">Gross Total</td><th><?php echo $total; ?></th>
   </tr>
+
   <tr>
-    <td colspan="3" style="text-align: right;">Discournt</td><th style="border-bottom: 1px solid blue;"><?php echo $_POST['discount']; ?></th>
+    <td colspan="3" style="text-align: right;border-right: 1px solid blue">Gross Total</td><th style="border: 1px solid blue;"><?php echo $total ?></th>
   </tr>
   <tr>
-    <td colspan="3" style="text-align: right;border-right: 1px solid blue">Gross Total</td><th style="border: 1px solid blue;"><?php echo $total-$_POST['discount']; ?></th>
-  </tr>
-  <tr>
-    <td class="center" colspan="4"><button class="btn btn-primary" onclick="window.print()">Print</button> <a href="index.php"><button class="btn btn-success">Go Back</button></a></td>
+    <td id="printPageButton" class="center" colspan="4"><button class="btn btn-primary" onclick="window.print()">Print</button> <a href="index.php"><button class="btn btn-success">Go Back</button></a></td>
   </tr>
       </table>
     </div>
@@ -116,8 +119,8 @@ if(!isset($_SESSION['userId']))
   </div>
 </div>
 <?php 
-$total = $total-$_POST['discount'];
-    if (!$con->query("insert into sold (name,contact,discount,amount,item,userId) values ('$_POST[name]','$_POST[contact]','$_POST[discount]','$total','$i','$_SESSION[userId]')")) 
+
+    if (!$con->query("insert into sold (name,contact,amount,item) values ('$_POST[name]','$_POST[contact]','$total','$i')")) 
     {
       echo "Error is:".$con->error;
     }

@@ -1,10 +1,7 @@
 <?php
 session_start();
 
-if(!isset($_SESSION['userId']))
-{
-  header('location:login.php');
-}
+
 
  ?>
 <?php require "assets/function.php" ?>
@@ -33,12 +30,9 @@ if(!isset($_SESSION['userId']))
   <div style="background:#FFF;color: grey;border-bottom:1px solid #c8c7cc;;padding: 13px 17px;border-left: 3px solid #3C8DBC;"><span><i class="fa fa-dashboard fa-fw"></i> Dashboard</span></div>
     <div class="item">
       <ul class="nostyle zero">
-        <a href="index.php"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Home</li></a>
-        <a href="inventeries.php"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Inventeries</li></a>
-       <a href="addnew.php"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Add New Item</li></a>
-     
-        <a href="reports.php"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Report</li></a>
-      </ul><
+      <a href="index.php"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Product Categories</li></a>
+        <a href="./../../index.html"><li style="color: grey"><i class="fa fa-circle-o fa-fw"></i> Back to Home</li></a>
+      </ul>
     </div>
   </div>
  
@@ -48,24 +42,10 @@ if(!isset($_SESSION['userId']))
 </div>
 <div class="marginLeft" >
   <div style="color:white;background:#ffffff" >
-    <div class="pull-right flex rightAccount" style="padding-right: 11px;padding: 7px;">
-      <div><img src="photo/<?php echo $user['pic'] ?>" style='width: 41px;height: 33px;' class='img-circle'></div>
-      <div style="padding: 8px"><?php echo ucfirst($user['name']) ?></div>
-    </div>
+    
     <div class="clear"></div>
   </div>
-<div class="account" style="display: none;z-index: 6">
-  <div style="background: #3C8DBC;padding: 22px;" class="center">
-    <img src="photo/<?php echo $user['pic'] ?>" style='width: 100px;height: 100px; margin:auto;' class='img-circle img-thumbnail'>
-    <br><br>
-    <span style="font-size: 13pt;color:#CEE6F0"><?php echo $user['name'] ?></span><br>
-    <span style="color: #CEE6F0;font-size: 10pt">Member Since:<?php echo $user['date']; ?></span>
-  </div>
-  <div style="padding: 11px;">
-    <a href="profile.php"><button class="btn btn-default" style="border-radius:0">Profile</button>
-    <a href="logout.php"><button class="btn btn-default pull-right" style="border-radius: 0">Sign Out</button></a>
-  </div>
-</div>
+
 <?php 
 if (isset($_GET['catId']))
 {
@@ -83,12 +63,12 @@ else
 }
   include 'assets/bill.php';
  ?>
-  <div class="content">
+  <div class="content" >
    <ol class="breadcrumb ">
         <li><a href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a></li>
         <li class="active"><?php echo $catName ?></li>
     </ol>
-  <div class="tableBox" >
+  <div class="tableBox" style="margin-top: 5vw;">
     <table id="dataTable" class="table table-bordered table-striped" style="z-index: -1">
       <thead>
         <th>#</th>
@@ -97,7 +77,6 @@ else
         <th>Price Per Unit</th>
         <th>Supplier Name</th>
         <th>Company</th>
-        <th></th>
         <th></th>
       </thead>
      <tbody>
@@ -131,7 +110,7 @@ else
               <?php break;} } } else {?>
               <td id='selection<?php echo $i; ?>'><button class="btn btn-primary btn-xs" onclick="addInBill('<?php echo $id ?>','<?php echo $i; ?>')">Select</button></td>
               <?php } ?>
-              <td colspan="center"><a href="delete.php?item=<?php echo $row['id'] ?>&url=<?php echo $_SERVER['QUERY_STRING'] ?>"><button class='btn btn-danger btn-xs'>Delete Item</button></a></td>
+              
           </tr>
       <?php
         }

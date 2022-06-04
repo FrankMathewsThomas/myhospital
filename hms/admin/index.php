@@ -57,14 +57,7 @@ exit();
 				<div class="logo">
 				<img src="images\logo1.png" style="height:80px;width:260px"/>
 				</div>
-				<div class="top-nav">
-					<ul>
-						<li><a href="\hospital\index.html">Home</a></li>
-						<li><a href="\hospital\login.php">Login</a></li>
-						<li><a href="\hospital\contact.php">contact</a></li>
-						
-					</ul>					
-				</div>
+				
 				<div class="clear"> </div>
 			</div>
 		</div>
